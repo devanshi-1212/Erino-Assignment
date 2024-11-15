@@ -65,7 +65,7 @@ const Dashboard = () => {
     const fetchContacts = async () => {
       try {
         await axios
-          .get(`http://localhost:5000/contacts?user=${loggedInUser}`)
+          .get(`https://erino-assignment-2l4y.onrender.com/contacts?user=${loggedInUser}`)
           .then((response) => {
             setContacts(response.data);
           })
@@ -123,7 +123,7 @@ const Dashboard = () => {
     console.log(data);
 
     axios
-      .post("http://localhost:5000/contacts", data)
+      .post("https://erino-assignment-2l4y.onrender.com/contacts", data)
       .then((result) => {
         handleSuccess("Contact created successfully.");
         setContacts((prev) => [...prev, result.data]);
@@ -180,7 +180,7 @@ const Dashboard = () => {
     };
 
     axios
-      .put(`http://localhost:5000/contacts/${id}`, data)
+      .put(`https://erino-assignment-2l4y.onrender.com/contacts/${id}`, data)
       .then((result) => {
         if (result.data.message === "Internal server error")
           handleSuccess("Internal server error");
@@ -212,7 +212,7 @@ const Dashboard = () => {
       const id = contacts[index]._id;
 
       axios
-        .delete(`http://localhost:5000/contacts/${id}`)
+        .delete(`https://erino-assignment-2l4y.onrender.com/contacts/${id}`)
         .then((result) => {
           handleSuccess(result.data.message);
           setTimeout(() => {
