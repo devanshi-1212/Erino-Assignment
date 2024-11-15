@@ -1,7 +1,8 @@
-# Zeotap SDE Internship Assignment
+# Erino SDE Internship Assignment
 ## Contact Management - Mini Feature of a CRM
 
 ## Walkthrough:
+https://github.com/user-attachments/assets/592342fe-dfe6-4250-a89c-880934b71ae1
 
 ## Features:
 - Created a Contact Management feature to help users of the system to keep a track of important contact information of customers / clients.
