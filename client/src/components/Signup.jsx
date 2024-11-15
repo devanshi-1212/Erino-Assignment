@@ -39,7 +39,7 @@ const Signup = () => {
     }
 
     try {
-      const url = "http://localhost:5000/signup";
+      const url = "https://erino-assignment-2l4y.onrender.com/signup";
       const response = await fetch(url, {
         method: "POST",
         headers: {
