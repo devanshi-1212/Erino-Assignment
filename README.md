@@ -19,6 +19,10 @@ https://github.com/user-attachments/assets/592342fe-dfe6-4250-a89c-880934b71ae1
 - It also gives flexibility while inserting data, unlike MySQL where schema is rigid.
 - For example, some contacts may not have Company name or Job Title. If using MySQL, these entries would be stored as NULL. This could result in having too many NULL values. Using MongoDB gives this flexibility to insert data, while taking less storage and not having a rigid architecture.
 
+## Challenges faced:
+- Some of the challenges I faced while making this project were related to frontend part. While I was able to code backend part well, I struggled a bit while working on UI.
+- For example, it took me some time to figure out how to display a contact when user wants to Edit it. After trying many layouts, I figured to enable the Edit feature on that particular row itself by changing the entries to input fields.
+- I also got stuck when working on the Sorting feature. After thinking on this for a while, I implemented Sorting feature by making user click on the attribute they want to sort with respect to. Clicking on the column name once will sort in ascending order and clicking again will sort in descending order and so on.
 
 ## Technologies Used:
 - Frontend: ReactJS, MUI
