@@ -10,7 +10,7 @@
 - Used Material UI for simple UI for user readability.
 - Implemented error handling for invalid or duplicate data.
 
-### Reason for choosing MongoDB as Database:
+## Reason for choosing MongoDB as Database:
 - MongoDB is used as database as it facilitates quicker write operations. It also gives flexibility while inserting data, unlike MySQL where schema is rigid.
 - For example, some contacts may not have Company name or Job Title. If using MySQL, these entries would be stored as NULL. This could result in having too many NULL values. Using MongoDB gives this flexibility to insert data, while taking less storage and not having a rigid architecture.
 
