@@ -2,7 +2,7 @@
 ## Contact Management - Mini Feature of a CRM
 
 ## Live Link:
-https://erino-assignment-seven.vercel.app/login
+https://erino-assignment-1-frontend.onrender.com/login
 
 ## Walkthrough:
 https://github.com/user-attachments/assets/592342fe-dfe6-4250-a89c-880934b71ae1
@@ -23,7 +23,7 @@ https://github.com/user-attachments/assets/592342fe-dfe6-4250-a89c-880934b71ae1
 - Frontend: ReactJS, CSS
 - Backend: NodeJS, ExpressJS
 - Database: MongoDB
-- Deployment: Render (Backend) + Vercel (Frontend)
+- Deployment: Render
 
 ## Installation:
 - Clone repository:
